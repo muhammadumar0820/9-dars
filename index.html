@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Too Smart</title>
+</head>
+<body>
+    <div class="dashboard-wrapper">
+        <aside class="sidebar">
+            <section>
+                <div class="sidebar__header">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./img/Mask Group.svg" alt="Smart Logo">
+                            <span>ТОО «Smart»</span>
+                        </a>
+                    </div>
+                    <div class="settings-icon">
+                        <a href="#">
+                            <img src="./img/settings2.svg" alt="settings-icon">
+                        </a>
+                    </div>
+                </div>
+    
+                <nav class="sidebar__nav">
+                     <ul>
+                        <li><a href="#"><img src="./img/trusted-checks.svg" alt=""><span>Компания</span></a></li>
+                        <li><a href="#"><img src="./img/bank-cards.svg" alt=""><span>Счета</span></a></li>
+                        <li><a href="#"><img src="./img/checks.svg" alt=""><span>Торговые точки</span></a></li>
+                        <li><a href="#"><img src="./img/dashboard.svg" alt=""><span>Сотрудники</span></a></li>
+                        <li><a href="#"><img src="./img/employees.svg" alt=""><span>Интеграция</span></a></li>
+                        <li><a href="#"><img src="./img/integration.svg" alt=""><span>Отчёты и финансы</span></a></li>
+                        <li><a href="#"><img src="./img/manage.svg" alt=""><span>Организации</span></a></li>
+                        <li><a href="#"><img src="./img/organizations.svg" alt=""><span>Доверенные счета</span></a></li>
+                        <li><a href="#"><img src="./img/places.svg" alt=""><span>Услуги</span></a></li>
+                     </ul>
+                </nav>
+            </section>
+
+            <div class="sidebar__footer">
+                    <p>
+                        <img src="./img/collapse.svg" alt="">
+                        <span>Свернуть панель</span>
+                    </p>
+            </div>
+        </aside>
+
+        <main class="main">
+            <div class="head">
+                <h2>Все счета</h2>
+                <button>Выставить счёт</button>
+            </div>
+
+            <div class="information">
+                <div class="container">
+                    <div class="container headr__container">
+                        <div class="titles">
+                            <p>Выставленные</p>
+                            <p>К оплате</p>
+                            <p class="child">История</p>
+                        </div>
+                    </div>
+                    <div class="container control__container">
+                        <div class="auth">
+                            <select class="first" name="" id="Все торговые точки и операции">
+                                <option value="Все торговые точки и операции">Все торговые точки и операции</option>
+                                <option value="торговые">торговые</option>
+                                <option value="точки">точки</option>
+                                <option value="и">и</option>
+                                <option value="операции">операции</option>
+                            </select>
+
+                            <input class="input" type="text" placeholder="Поиск по номеру счета">
+
+                            <select class="second" name="" id="Фильтры">
+                                <option value="Фильтры">Фильтры</option>
+                                <option value="Фильтры">Фильтры</option>
+                                <option value="Фильтры">Фильтры</option>
+                                <option value="Фильтры">Фильтры</option>
+                            </select>
+
+                            <select class="third" name="" id="Действия">
+                                <option value="Действия">Действия</option>
+                                <option value="Действия">Действия</option>
+                                <option value="Действия">Действия</option>
+                                <option value="Действия">Действия</option>
+                            </select>
+
+                        </div>
+                    </div>
+                    <div class="container informations__container">
+                       <table>
+                        <tr class="trs">
+                            <th>Номер счета</th>
+                            <th>Время и дата</th>
+                            <th>Торговая точка / Оперция</th>
+                            <th>Сумма</th>
+                            <th>Получено</th>
+                            <th>Статус</th>
+                        </tr> <br>
+
+                        <tr class="tr">
+                            <td>№32467</td>
+                            <td>11:20 05.01.2019</td>
+                            <td>Smart Лазурный</td>
+                            <td>1500 тг</td>
+                            <td>1350 тг</td>
+                            <td class="Оплачено">Оплачено</td>
+                        </tr> <br>
+
+                        <tr class="tr">
+                            <td>№32466</td>
+                            <td>21:18 02.01.2019</td>
+                            <td>Smart Ишим</td>
+                            <td>3 850 тг</td>
+                            <td>   </td>
+                            <td class="Отклонено">Отклонено</td>
+                        </tr> <br>
+
+                        <tr class="tr">
+                            <td>Вывод</td>
+                            <td>00:00 31.12.2018</td>
+                            <td>-</td>
+                            <td>−16 335 тг</td>
+                            <td>     </td>
+                            <td class="Вывод-средств">Вывод средств</td>
+                        </tr> <br>
+
+                        <tr class="tr">
+                            <td>№32467</td>
+                            <td>11:20 29.12.2018</td>
+                            <td>Smart Лазурный</td>
+                            <td>1000 тг</td>
+                            <td>     </td>
+                            <td class="Оплачено">Оплачено</td>
+                        </tr> <br>
+
+                        <tr class="tr">
+                            <td>№32467</td>
+                            <td>11:20 29.12.2018</td>
+                            <td>Smart Лазурный</td>
+                            <td>1500 тг</td>
+                            <td>1350 тг</td>
+                            <td class="Оплачено">Оплачено</td>
+                        </tr> <br>
+
+                        <tr class="tr">
+                            <td>Комиссия</td>
+                            <td>11:20 29.12.2018</td>
+                            <td>-</td>
+                            <td>−168 тг</td>
+                            <td>    </td>
+                            <td class="Комиссия">Комиссия</td>
+                        </tr> <br>
+
+                        <tr class="tr">
+                            <td>№32467</td>
+                            <td>11:20 29.12.2018</td>
+                            <td>Smart Лазурный</td>
+                            <td>1500 тг</td>
+                            <td>1350 тг</td>
+                            <td class="Оплачено">Оплачено</td>
+                        </tr> <br>
+
+                        <tr class="tr">
+                            <td>№32467</td>
+                            <td>11:20 29.12.2018</td>
+                            <td>Smart Ишим</td>
+                            <td>9 980 тг</td>
+                            <td>8 982 тг</td>
+                            <td class="Оплачено">Оплачено</td>
+                        </tr> <br>
+                       </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
